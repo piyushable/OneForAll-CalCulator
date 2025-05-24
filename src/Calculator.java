@@ -49,9 +49,7 @@ public class Calculator {
     private double[] getRootsOfQuadraticEquation(String s) {
         // ax^2 + bx + c
         // 2x^2 + 3x + 6
-        // 01234567891011
         // x,y = (-b +/- sqrt(b^2 - 4ac))/2a
-
         int a = Character.getNumericValue(s.charAt(0));
         int b = Character.getNumericValue(s.charAt(7));
         int c = Character.getNumericValue(s.charAt(s.length() - 1));

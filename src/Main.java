@@ -9,8 +9,6 @@ public class Main {
         double result2 = c.calculate(4,5,"+");
         double[] result3 = c.calculate("2x² + 5x - 3");
 
-//        System.out.println(result1);
-//        System.out.println(result2);
         System.out.println(Arrays.toString(result3));
     }
 }
